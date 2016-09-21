@@ -26,7 +26,9 @@
 ###Використання Git на даному курсі
 1. `Fork` (_GitHub_)
 1. `Checkout from Version Control` → `GitHub` (_WebStorm_)
-1. Commit and push changes. (_WebStorm_)
+1. Внесення змін в файли. (_WebStorm_)
+1. Комміт змін. (_WebStorm_)
+1. Вибір гілки в віддаленому репозиторії і `Push` змін. (_WebStorm_) 
 1. `New pull request` (_GitHub_)
 1. Вибір репозиторію і гілки. `Create pull request` (_GitHub_)
 
