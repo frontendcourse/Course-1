@@ -3,16 +3,19 @@
 1. Процес розробки і версіювання.
 1. Гілки.
 1. Схема використання Git на даному курсі.
+
 ###Встановлення ПЗ.
 1. [Git](https://git-scm.com/)
 1. [WebStorm](https://www.jetbrains.com/webstorm/download/#section=windows-version)
 1. [GitHub Desktop](https://desktop.github.com/)
 1. Реєстрація аккаунта на [GitHub](https://github.com/)
+
 ###Основні команди
 1. `git init`
 1. `git add`
 1. `git status`
 1. `git commit`
+
 ###Засоби IDE для роботи з Git
 1. Панель `Project`
 1. Панель `Terminal`
@@ -23,12 +26,13 @@
 1. Commit і Push.
 1. Diff.
 1. Revert.
+
 ###Використання Git на даному курсі
 1. `Fork` (_GitHub_)
 1. `Checkout from Version Control` → `GitHub` (_WebStorm_)
 1. Внесення змін в файли. (_WebStorm_)
 1. Комміт змін. (_WebStorm_)
-1. Вибір гілки в віддаленому репозиторії і `Push` змін. (_WebStorm_) 
+1. Вибір гілки в віддаленому репозиторії і `Push` змін. (_WebStorm_)
 1. `New pull request` (_GitHub_)
 1. Вибір репозиторію і гілки. `Create pull request` (_GitHub_)
 
