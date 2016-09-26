@@ -36,6 +36,12 @@
 1. Порядок оголошення в документі.
 1. `!important`
 
+###Naming conventions
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
+- [Способы организации CSS-кода](https://habrahabr.ru/post/256109/)
+- [Начинаем писать CSS](http://frontender.info/starting-css/)
+- [BEM и SMACSS — выбираем CSS методологию](https://uwebdesign.ru/bem-smacss/)
+
 ---
 #Домашнє завдання
 1. В контент кожного елемента з файлу `homework.html` додати список селекторів, якими можна вибрати цей елемент.
