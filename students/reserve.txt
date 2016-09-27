@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    li {                                                            /*set list items*/
+       background: #D3D3D3;
+       padding: 3px;
+       font-family: Consolas,sans-serif;
+    }
+    body {                                                           /*set body*/
+      font-family: "Lucida Sans Unicode", sans-serif;
+      padding: 30px;
+      margin: 30px;
+      border-left: solid 1px #E5E4E1;
+      border-right: solid 1px #E5E4E1;
+    }
+    .vline {                                                        /*vertical line*/
+      border-left: solid 4px #E5E4E1; padding-left: 12px;
+    }
+
+  </style>
+
+  <title>The brand new first page</title>
+
+</head>
+
+<body>
+
+  <h1>Основи HTML</h1>
+
+  <hr color="#E5E4E1" size="0,5">
+
+  <h3>Контент і семантика</h3>
+ <p class="vline">Семантика — розділ мовознавства, пов'язаний з лексикологією; вивчає значення (теж у діахронному, іст. перекрої) слів і їх складових частин, словосполук і фразеологізмів.</p>
+
+  <h3>Теги і атрибути</h3>
+  <h4>Атрибути</h4>
+  <ol>
+    <li>class</li>
+    <li>id</li>
+    <li>title</li>
+    <li>lang</li>
+    <li>style</li>
+  </ol>
+
+  <h4>Документ і метадані</h4>
+  <ol>
+    <li>&lt;!DOCTYPE&#62;</li>
+    <li>&lt;html&#62; <a href="https://jsfiddle.net/P3trovichUA/502Ly7ef/">?</a></li>
+    <li>&lt;title&#62;</li>
+    <li>&lt;meta&#62;</li>
+    <li>&lt;head&#62;<a href="https://jsfiddle.net/P3trovichUA/nkcej5m4/">?</a></li>
+  </ol>
+  <h4>Структура контенту</h4>
+  <ol>
+    <li>&#60;body&#62;</li>
+    <li>&#60;article&#62;</li>
+    <li>&#60;section&#62;</li>
+    <li>&#60;nav&#62;</li>
+    <li>&#60;aside&#62;</li>
+    <li>&#60;h1&#62;, &#60;h2&#62;, &#60;h3&#62;, &#60;h4&#62;, &#60;h5&#62;, &#60;h6&#62;</li>
+    <li>&#60;header&#62;</li>
+    <li>&#60;footer&#62;</li>
+    <li>&#60;address&#62;</li>
+  </ol>
+  <h4>Групування контенту</h4>
+  <ol>
+    <li>&#60;p&#62;</li>
+    <li>&#60;hr&#62;</li>
+    <li>&#60;pre&#62;</li>
+    <li>&#60;blockquote&#62;</li>
+    <li>&#60;ol&#62;, &#60;ul&#62;, &#60;li&#62;</li>
+    <li>&#60;dl&#62;, &#60;dt&#62;, &#60;dd&#62;</li>
+    <li>&#60;figure&#62;, &#60;figcaption&#62;</li>
+    <li>&#60;div&#62;</li>
+    <li>&#60;main&#62;</li>
+  </ol>
+  <h4>Семантика на рівні тексту</h4>
+  <ol>
+    <li>&#60;a&#62;</li>
+    <li>&#60;em&#62;</li>
+    <li>&#60;i&#62;</li>
+    <li>&#60;strong&#62;</li>
+    <li>&#60;b&#62;</li>
+    <li>&#60;u&#62;</li>
+    <li>&#60;s&#62;</li>
+    <li>&#60;del&#62;</li>
+    <li>&#60;ins&#62;</li>
+    <li>&#60;c&#62;</li>
+    <li>&#60;cite&#62;</li>
+    <li>&#60;abbr&#62;</li>
+    <li>&#60;time&#62;</li>
+    <li>&#60;var&#62;</li>
+    <li>&#60;sub&#62;, &#60;sup&#62;</li>
+    <li>&#60;span&#62;</li>
+    <li>&#60;br&#62;</li>
+    <li>&#60;wbr&#62;</li>
+  </ol>
+  <h4>Вбудований контент</h4>
+  <ol>
+    <li>&#60;img&#62;</li>
+    <li>&#60;iframe&#62;</li>
+    <li>&#60;embed&#62;, &#60;object&#62;</li>
+    <li>&#60;video&#62;</li>
+    <li>&#60;audio&#62;</li>
+  </ol>
+  <h4>Табличні дані</h4>
+  <ol>
+    <li>&#60;table&#62;</li>
+    <li>&#60;caption&#62;</li>
+    <li>&#60;tbody&#62;</li>
+    <li>&#60;thead&#62;</li>
+    <li>&#60;tfoot&#62;</li>
+    <li>&#60;tr&#62;</li>
+    <li>&#60;td&#62;</li>
+    <li>&#60;th&#62;</li>
+  </ol>
+  <h4>Форми</h4>
+  <ol>
+    <li>&#60;form&#62;</li>
+    <li>&#60;label&#62;</li>
+    <li>&#60;input&#62;</li>
+    <li>&#60;button&#62;</li>
+    <li>&#60;select&#62;, &#60;option&#62;</li>
+    <li>&#60;textarea&#62;</li>
+    <li>&#60;fieldset&#62;, &#60;legend&#62;</li>
+  </ol>
+
+  <h3>Валідація</h3>
+
+  <hr color="#E5E4E1" size="4">
+
+  <h3>Домашнє завдання</h3>
+
+  <hr color="#E5E4E1" size="0,5">
+
+  <ol>
+    <li>Відтворити даний зміст уроку на HTML</li>
+  </ol>
+
+  <hr color="#E5E4E1" size="4">
+
+  <h3>Лінки</h3>
+
+  <hr color="#E5E4E1" size="0,5">
+  <ul>
+    <li><a href="http://htmlbook.ru/samhtml" name="Самовчитель">Самоучитель HTML</a></li>
+    <li><a href="http://htmlbook.ru/html">Справочник по HTML﻿</a></li>
+    <li><a href="http://htmlbook.ru/html5">HTML5</a>﻿</li>
+    <li><a href="https://fuckingwebsite.ru">Это — грёбаный сайт.</a></li>
+  </ul>
+
+
+</body>
+
+</html>
