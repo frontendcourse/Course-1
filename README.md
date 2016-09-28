@@ -41,7 +41,8 @@
 1. `font-variant`
 1. `letter-spacing`
 1. `word-spacing`
-1. Не стандартні шрифти.
+1. `user-select`
+1. Нестандартні шрифти.
  - [Google Fonts](https://fonts.google.com)
  - [Font Squirrel](https://www.fontsquirrel.com)
  
@@ -50,6 +51,9 @@
 
 ---
 #Домашнє завдання
+1. Підключити файл стилів `normalize.css`.
+1. Підключити нестандартний, що використовується на сторінці.
+1. Згідно [макету](https://www.dropbox.com/s/gx4piiwb52ntznq/lesson-5.%20homework.psd?dl=0) зверстати текстову сторінку.
 
 ---
 #Лінки
