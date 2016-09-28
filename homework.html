@@ -5,18 +5,30 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Title</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <section id="lesson-plan">
-  <h1>
+  <h1 class="h1">
     Введення в CSS
+    .h1
+    #h1
+    section h1
+    section > h1
+    #section-plan h1
   </h1>
   <h2>
+    .h2
+    #h2
+    section > h1
     Способи додавання CSS на сторінку
   </h2>
-  <ol>
+  <ol class="ol">
+    section > ol
+    .ol
     <li>
       <code>
+        ol > li > code
         &lt;link rel="stylesheet" href="#"&gt;
       </code>
     </li>
@@ -41,7 +53,7 @@
     </li>
     <li>
       Селектори вкладених елементів:
-      <ul>
+      <ul class="ul">
         <li>
           елементи нащадки.
         </li>
@@ -55,7 +67,7 @@
     </li>
     <li>
       Селектори атрибутів.
-      <ul>
+      <ul class="ul">
         <li>
           <code>
             [attr]
@@ -90,7 +102,6 @@
     </li>
   </ol>
 </section>
-
 <section id="home-work">
   <h1>
     Домашнє завдання
@@ -113,6 +124,8 @@
   <ul>
     <li>
       <a href="http://htmlbook.ru/samcss">
+        a[href^="ht"]
+
         Самоучитель CSS
       </a>
     </li>
