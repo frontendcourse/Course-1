@@ -8,3 +8,30 @@ body {
   margin: 0 auto;
   padding: 30px;
 }
+p {font-family: 'Montserrat', sans-serif;}
+.colortext {
+  color: gray;
+  }
+.ws {
+  word-spacing: 15px;
+  }
+p.fz1{
+   font-size: 24px;
+   margin-bottom: 1px;
+  }
+ p.fz2{
+   font-size: 14px;
+   margin-top: 1px;
+   margin-bottom: 65px;
+  }
+ p.fz3{
+   font-size: 15px;
+   text-align: justify;
+   margin-bottom: 40px;
+   line-height: 2;
+ }
+ p.fz4 {
+   font-size: 15px;
+   text-align: justify;
+   line-height: 2;
+ }
