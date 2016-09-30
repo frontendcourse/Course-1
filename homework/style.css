@@ -1,10 +1,41 @@
 html {
   height: 100%;
   background: #282828;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   width: 870px;
   background: #ffffff;
   margin: 0 auto;
   padding: 30px;
+
+}
+.header h1{
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.first-paragraph {
+  font-size: 0.88em;
+  color: #666666;
+  margin-top: 10px;
+  margin-bottom: 60px;
+
+}
+.first-paragraph span {
+  color: #999999;
+}
+.line {
+  margin: 15px;
+}
+
+.content p{
+  font-size: 0.95em;
+  color: #333333;
+  margin-top: 35px;
+  text-align: justify;
+  line-height: 26px;
+
+
+
+
 }
