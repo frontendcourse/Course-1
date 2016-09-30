@@ -3,8 +3,28 @@ html {
   background: #282828;
 }
 body {
-  width: 870px;
+  width: 850px;
   background: #ffffff;
   margin: 0 auto;
   padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-size: 95%;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #333;
+  text-align: justify;
+}
+
+.pre {
+  color: #999;
+}
+.span {
+  color: #666;
+}
+
+.line{
+  border-right: 2px solid silver;
+  color: #666;
 }
