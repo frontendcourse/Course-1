@@ -1,0 +1,105 @@
+header {
+  font-family: 'Montserrat', sans-serif;
+  width: 1170px;
+}
+.header-info{
+  font-size: 14px;
+  line-height: 24px;
+  width: 1170px;
+  height: 33px;
+  background: #2b2b2b;
+}
+.header-info .number {
+  float: left;
+   margin-top: 4px;
+   color: #7f7f7f;
+}
+
+.header-info .login {
+  float: right;
+   margin-top: 4px;
+  margin-right: 20px;
+   color: #666666;
+
+}
+ .login span {
+   font-size: 12px;
+   color: #3b3b3b;
+ }
+.header-nav {
+  height: 167px;
+  background: #232323;
+}
+ .image-form .image-logo {
+   float: left;
+   padding-top: 30px;
+}
+.image-form .form {
+  float: right;
+  padding-top: 30px;
+
+}
+input{
+  background: #232323 url("image/icon.png") no-repeat right;
+  width: 245px;
+  height: 40px;
+  color: #666666;
+  font-size: 13px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 30px;
+
+}
+ .border-form{
+   border: 1px solid #333333;
+ }
+ ul{
+   padding-left: 0px;
+ }
+ul li{
+  float: left;
+  list-style: none;
+  margin-right: 45px;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+ul li:first-child{
+  color: #be926f;
+}
+.clear{
+  clear: both;
+}
+.image-bag {
+  float: right;
+}
+.brcum{
+  height: 117px;
+  width: 1170px;
+  background: #e7e7e7;
+  margin-top: 30px;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.brcum .text1{
+  float: left;
+  margin: 50px 25px;
+  font-size: 35px;
+  color: #232323;
+
+
+}
+
+.brcum .text2{
+  float: right;
+  margin: 50px 15px;
+  font-size: 14px;
+  color: #666666;
+}
+.brcum .text2 span{
+  color: #999999;
+}
