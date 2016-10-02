@@ -51,7 +51,6 @@
 
 ---
 #Лінки
-- (Веселощі з CSS лічильниками)[http://codeguida.com/post/318/]
-- (Полезные псевдо-селекторы)[http://frontender.info/helpful-css-pseudo-selectors/]
-- (Популярно о псевдоэлементах `:before` и `:after`)[https://habrahabr.ru/post/154319/]
-
+- [Веселощі з CSS лічильниками](http://codeguida.com/post/318/)
+- [Полезные псевдо-селекторы](http://frontender.info/helpful-css-pseudo-selectors/)
+- [Популярно о псевдоэлементах `:before` и `:after`](https://habrahabr.ru/post/154319/)
