@@ -1,0 +1,130 @@
+/*header bloc*/
+.header {
+  width: 1920px;
+  height: 200px;
+  background: #232323;
+  }
+.ht1 {
+  width: 170px;
+  height: 30px;
+  background: #2b2b2b;
+  position: relative; top: 5px; left: 375px;
+  font-family: 'Montserrat Light', arial;
+  font-size: 14px;
+  color: gray;
+}
+.ht2 {
+  width: 1000px;
+  height: 30px;
+  background: #2b2b2b;
+  position: relative; left: 480px;top: -25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: gray;
+  text-align: right;
+}
+.colortext {
+  color: #363636;
+  font-size: 20px;
+  }
+.a {
+  text-decoration: none;
+  color: grey;
+}
+.agm {
+  text-decoration: none;
+  color: #af8767;
+}
+.awm {
+  text-decoration: none;
+  color: #ffffff;
+}
+.logo {
+  width: 170px;
+  height: 50px;
+  padding-left: 375px;
+  position: relative;
+}
+.searh {
+  width: 1000px;
+  height: 50px;
+  position: relative; left: 480px;top: -50px;
+  font-family: 'Montserrat Light', arial;
+  font-size: 13px;
+  color: gray;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
+}
+.colortextsearch {
+  background-color: #232323;
+  color: gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid grey;
+}
+ ul.hr li {
+  display: inline;
+  margin-right: 48px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+   position: relative;left: 335px;
+   vertical-align: middle;
+   }
+ div.menu {
+   position: relative; bottom: 40px;
+ }
+ /* bloc contact*/
+
+div.container {
+  width: 780px;
+  height: 118px;
+  background: #e7e7e7;
+  position: relative; left: 375px;
+  top: 29px;
+  padding-left: 30px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+}
+div.container1 {
+  width: 195px;
+  height: 118px;
+  background: #e7e7e7;
+  position: relative; left: 375px;
+  top: 29px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  color: #cfcfcf;
+  display: table-cell;
+  vertical-align: middle;
+}
+div.container2 {
+  width: 20px;
+  height: 118px;
+  background: #e7e7e7;
+  position: relative; left: 375px;
+  top: 29px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  color: #666666;
+  display: table-cell;
+  vertical-align: middle;
+}
+.ahome {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+.acontact {
+  text-decoration: none;
+  color: #666666;
+}
