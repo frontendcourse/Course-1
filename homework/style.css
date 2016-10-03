@@ -1,6 +1,7 @@
-header {
+body {
   font-family: 'Montserrat', sans-serif;
   width: 1170px;
+  margin-left: 5%;
 }
 .header-info{
   font-size: 14px;
@@ -40,7 +41,7 @@ header {
 
 }
 input{
-  background: #232323 url("image/icon.png") no-repeat right;
+  background: #232323 url("image/icon.png")  no-repeat right;
   width: 245px;
   height: 40px;
   color: #666666;
@@ -53,10 +54,10 @@ input{
  .border-form{
    border: 1px solid #333333;
  }
- ul{
+ nav ul{
    padding-left: 0px;
  }
-ul li{
+ nav ul li{
   float: left;
   list-style: none;
   margin-right: 45px;
@@ -65,7 +66,7 @@ ul li{
   line-height: 24px;
   color: #ffffff;
 }
-ul li:first-child{
+nav ul li:first-child{
   color: #be926f;
 }
 .clear{
@@ -87,7 +88,7 @@ ul li:first-child{
 
 .brcum .text1{
   float: left;
-  margin: 50px 25px;
+  margin: 46px 25px;
   font-size: 35px;
   color: #232323;
 
@@ -96,10 +97,35 @@ ul li:first-child{
 
 .brcum .text2{
   float: right;
-  margin: 50px 15px;
+  margin: 46px 15px;
   font-size: 14px;
   color: #666666;
 }
 .brcum .text2 span{
   color: #999999;
+}
+.map {
+margin-top: 30px;
+}
+.contact-info {
+  width: 310px;
+  height: 430px;
+  margin-top: 50px;
+  float: left;
+}
+.contact-info ul {
+  font-size: 15px;
+  line-height: 35px;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 20px;
+  color: #333333;
+}
+.contact-info ul li {
+  line-height: 25px;
+}
+.contact-info ol {
+  line-height: 26px;
+  margin-left: 20px;
+  padding-left: 0px;
 }
