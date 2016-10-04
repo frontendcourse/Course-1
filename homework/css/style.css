@@ -1,4 +1,4 @@
-/*GENERAL STYLES*/
+/* GENERAL STYLES */
 body {
   font-size: 100%;
 }
@@ -11,7 +11,9 @@ body {
   overflow: hidden;
 }
 
-/*HEADER*/
+
+
+/* HEADER */
 
 .header {
   height: 35px;
@@ -34,7 +36,7 @@ body {
 
 .inform a:active,
 .inform a:hover {
-  color: #2129d1;
+  color: #e38840;
 }
 
 .text a {
@@ -46,7 +48,7 @@ body {
 
 .text a:active,
 .text a:hover {
-  color: #2129d1;
+  color: #e38840;
 }
 
 .text {
@@ -59,7 +61,10 @@ body {
   letter-spacing: -0.2px;
 }
 
-/*ABOUT*/
+
+
+
+/* ABOUT */
 
 .choice {
   background-color: #232323;
@@ -115,7 +120,7 @@ body {
 
 .menu li a:active,
 .menu li a:hover {
-  color: #2129d1;
+  color: #e38840;
 }
 
 .menu .home {
@@ -141,7 +146,9 @@ body {
   position: relative;
 }
 
-/*CONTACT*/
+
+
+/* CONTACT */
 .br-cum {
   height: 117px;
   width: 1170px;
