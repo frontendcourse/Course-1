@@ -1,0 +1,47 @@
+body {
+  width: 1000px;
+  font-family: Arial sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  counter-reset: pages;
+}
+div {
+  width: 1000px;
+  height: 444px;
+  background-color: #555555;
+}
+ul li {
+  width: 920px;
+  height: 74px;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+ul li:nth-child(odd){
+  background-color: #cccccc;
+}
+p {
+  margin-top: 0px;
+  padding: 10px;
+}
+
+ ul li span {
+   width: 50px;
+   height: 74px;
+   padding: 20px 10px;
+   float: left;
+   box-sizing: border-box;
+   font-size: 24px;
+   color: #ffffff;
+   text-align: center;
+   margin-right: 2px;
+   background-color: #ff5353;
+   counter-increment: pages;
+ }
+span::before {
+  content: counter(pages);
+}
+  .color {
+   background-color: #cc4242;
+ }
+
