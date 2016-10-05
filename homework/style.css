@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 1170px;
+  margin-left: 5%;
+}
+
+.header-info{
+  font-size: 14px;
+  line-height: 1.72;
+  width: 1170px;
+  height: 33px;
+  background: #2b2b2b;
+}
+
+.header-info .number {
+  float: left;
+   margin-top: 2px;
+  margin-left: 1px;
+   color: #7f7f7f;
+}
+
+.header-info .login {
+  float: right;
+   margin-top: 3px;
+  margin-right: 0px;
+   color: #666666;
+}
+
+ .login span {
+   font-size: 12px;
+   color: #3b3b3b;
+   margin: 0 5px;
+ }
+
+.header-nav {
+  height: 167px;
+  background: #232323;
+}
+
+ .image-form .image-logo {
+   float: left;
+   padding-top: 30px;
+}
+
+.image-form .form {
+  float: right;
+  padding-top: 30px;
+
+}
+
+input{
+  background: #232323 url("image/icon.png")  no-repeat right;
+  margin-right: 15px;
+  width: 230px;
+  height: 42px;
+  color: #666666;
+  font-size: 13px;
+  padding-left: 25px;
+  border: none;
+  border-radius: 30px;
+}
+
+ .border-form{
+   border: 1px solid #333333;
+ }
+
+ nav ul{
+   padding-left: 0px;
+ }
+
+ nav ul li{
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+nav ul li:first-child{
+  color: #be926f;
+}
+
+.clear{
+  clear: both;
+}
+
+.image-bag {
+  float: right;
+  margin-top: 10px;
+}
+
+.brcum{
+  height: 117px;
+  width: 1170px;
+  background: #e7e7e7;
+  margin-top: 30px;
+  font-variant: small-caps;
+  font-weight: 400;
+}
+
+.brcum .text1{
+  float: left;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 3.45;
+  padding-left: 40px ;
+  color: #232323;
+}
+
+.brcum .text2{
+  float: right;
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 5.85;
+  color: #666666;
+}
+
+.brcum .text2 span{
+  color: #999999;
+}
+
+.map {
+margin-top: 30px;
+}
+
+.contact-info {
+  width: 310px;
+  height: 430px;
+  margin-top: 50px;
+  float: left;
+}
+.contact-info dl {
+  font-size: 15px;
+  line-height: 35px;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 20px;
+  color: #333333;
+}
+.contact-info dl dd {
+  margin-left: 0px;
+}
+
+.contact-info dl dt {
+  line-height: 25px;
+}
+
+.contact-info .text3 {
+  line-height: 26px;
+  margin-left: 20px;
+  padding-left: 0px;
+}
