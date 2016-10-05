@@ -1,96 +1,49 @@
-html{
-
+html {
+  height: 100%;
+  background: #282828;
 }
-body{
+body {
+  width: 810px;
+  background: #fafafa;
+  margin: 0 auto;
+  padding: 30px;
   font-family: 'Montserrat', sans-serif;
-  width: 1170px;
-  margin: auto;
-  /*text-align: center;*/
 }
-.clear{
-  clear: both;
+
+.head h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  letter-spacing: -0.3px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
 }
-.enter{
-  height: 34px;
-  background-color: #2b2b2b;
-  color: #686868;
-  vertical-align: middle;
-  display: table-cell;
-  width: 1170px;
-  /*letter-spacing: -1.5px;*/
-}
-.number{
-  /*font-family: 'montserrat-light', sans-serif;*/
-  float: left;
+.head span{
+  font: 15px 'Montserrat Light', sans-serif;
 
 }
-.loginreg{
-  float: right;
+.head{
+  font: 15px 'Montserrat Light', sans-serif;
   color: #666666;
+  font-weight: normal;
+  letter-spacing: -0.3px;
 }
-
-.header_search{
-  padding-top: 31px;
-  float: right;
-  background-color: #2b2b2b;
-
-}
-.header_img {
-  padding-top: 30px;
-  float: left;
-
-}
-
-.header_info{
-  background-color: #232323;
-  height: 168px;
-}
-
-ul{
-  padding: 0;
-}
-ul li{
-  list-style-type: none;
-  float: left;
-  color: #ffffff;
-  padding-right: 50px;
-
-  /*display: inline-block;*/
-  /*margin-left: 0;
-  padding-left: 0;*/
-}
-.header_bag{
-  float: right;
-}
-
-.wrap{
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-.contact_us {
-  width: 1170px;
-  height: 117px;
-  text-transform: uppercase;
-  background-color: #e7e7e7;
-  /*display: inline-block;*/
-  vertical-align: middle;
-  display: table-cell;
-
-}
-
-.contact{
-  float: left;
-  font-size: 30px;
-  padding-left: 27px;
-}
-.home{
-  float:right;
-  font-size: 14px;
-  padding-right: 17px;
-  padding-top: 10px;
-}
-
-.contact_us .home span{
+.txt_grey {
   color: #999999;
+  letter-spacing: -0.3px;
 }
+.content {
+  margin-top: 55px;
 
+}
+  .content p{
+    font: 15px 'Montserrat Light', sans-serif;
+      text-align: justify;
+    letter-spacing: -0.1px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+}
