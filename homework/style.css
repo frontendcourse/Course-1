@@ -1,0 +1,42 @@
+p:nth-child(odd) {
+  background-color: #cccccc;
+}
+
+p {
+  font: 14px 'Arial', sans-serif;
+  width: 870px;
+  padding: 12px 0;
+  margin: 0;
+  color: #282828;
+}
+
+body {
+  counter-reset: pages;
+}
+
+p {
+  counter-increment: pages;
+}
+
+p::before {
+  content: counter(pages);
+  background-color: #ff5353;
+  float: left;
+  width: 50px;
+  height: 74px;
+  color: #ffffff;
+  text-align: center;
+  font: 24px 'Times New Roman', sans-serif;
+  line-height: 74px;
+  margin-top: -12px;
+}
+
+p::after {
+  content: ' ';
+  clear: both;
+}
+
+p:nth-child(odd)::before {
+  background-color: #cc4242;
+}
+
