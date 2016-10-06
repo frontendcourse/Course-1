@@ -1,0 +1,24 @@
+body {
+  counter-reset: pages;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 0.875em;
+  color: #282828;
+  width: 870px;
+  height: 75px;
+  margin: auto;
+  counter-increment: pages;
+}
+
+p:nth-child(odd) {
+  background: #cccccc;
+}
+p::before {
+  content: counter(pages);
+  width: 50px;
+  height: 75px;;
+  background: #cc4242;
+  float: left;
+}
