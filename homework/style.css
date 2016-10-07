@@ -1,24 +1,51 @@
 body {
   counter-reset: pages;
+  min-width: 950px;
+  font-size: 14px;
+}
+
+.conteiner {
+  background: #555;
+  width: 950px;
+  height: auto;
+  margin: auto;
 }
 
 p {
-  font-family: Arial, sans-serif;
-  font-size: 0.875em;
+  counter-increment: pages;
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #282828;
   width: 870px;
   height: 75px;
+  line-height: 18px;
   margin: auto;
-  counter-increment: pages;
+  padding-top: 12px;
+  clear: both;
 }
 
 p:nth-child(odd) {
   background: #cccccc;
 }
+
+p:nth-child(even) {
+  background: #ffffff;
+}
 p::before {
   content: counter(pages);
+  font: 700 1.5em 'Times New Roman', san-serif;
+  color: #fff;
   width: 50px;
-  height: 75px;;
+  height: inherit;
   background: #cc4242;
   float: left;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  line-height: 87px;
+  vertical-align: middle;
+  margin-top: -12px;
+  padding-bottom: 12px;
+}
+
+p:nth-child(even)::before {
+  background: #ff5353;
 }
