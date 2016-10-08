@@ -1,0 +1,47 @@
+.header {
+  width: 1000px;
+  height: 444px;
+  background: #555555;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+    }
+.hl {
+  width: 920px;
+  height: 444px;
+  background: #cccccc;
+  float: right;
+  margin-right: 40px;
+  }
+.p {
+  vertical-align: middle;
+  padding: 13px 0;
+  margin: 0px;
+}
+p:nth-child(even)  {
+  background: #ffffff;
+}
+body {
+  counter-reset: pages;
+}
+p {
+  counter-increment: pages;
+ }
+p::before {
+  content: counter(pages);
+  font-size: 24px;
+  line-height: 74px;
+  color: #ffffff;
+  width: 50px;
+  height: 74px;
+  font-family: "Times New Roman";
+  text-align: center;
+  float: left;
+  margin-top: -13px;
+  text-shadow: #ffffff 1px 1px 2px;
+}
+p:nth-child(odd)::before {
+  background-color: #cc4242;
+}
+p:nth-child(even)::before {
+  background-color: #ff5353;
+}
