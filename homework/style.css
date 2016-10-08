@@ -2,6 +2,8 @@
   width: 1000px;
   height: 444px;
   background: #555555;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
     }
 .hl {
   width: 920px;
@@ -11,8 +13,6 @@
   margin-right: 40px;
   }
 .p {
-  font-size: 14px;
-  font-family: Arial,sans-serif;
   vertical-align: middle;
   padding: 13px 0;
   margin: 0px;
@@ -45,9 +45,3 @@ p:nth-child(odd)::before {
 p:nth-child(even)::before {
   background-color: #ff5353;
 }
-p::after {
-  content: ' ';
-  clear: both;
-}
-
-
