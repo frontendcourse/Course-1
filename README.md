@@ -32,3 +32,5 @@
 - [Растровая и векторная графика](https://htmlacademy.ru/blog/111-rastr-vector)
 - [Погружение в CSS градиенты](http://frontender.info/dig-deep-into-css-gradients/)
 - [Властивості Background](http://codeguida.com/post/496/)
+- [Я ♥ SVG](https://vimeo.com/108093997)
+- [SmashingConf Freiburg 2016 - Una Kravets on Practical Blend Modes](https://vimeo.com/184235576)
