@@ -1,47 +1,41 @@
 body {
-  width: 1000px;
   font-family: Arial sans-serif;
   font-size: 14px;
-  line-height: 1.29;
+  line-height: 1.3em;
+  letter-spacing: 0.7px;
   counter-reset: pages;
-}
-div {
   width: 1000px;
-  height: 444px;
-  background-color: #555555;
+}
+
+ul{
+  list-style: none;
+  background: #555555;
+  padding: 0  40px;
+
 }
 ul li {
-  width: 920px;
-  height: 74px;
-  list-style: none;
-  background-color: #ffffff;
+  background: #ffffff;
+  padding: 10px 10px 10px 50px;
+  counter-increment: pages;
+  position: relative;
+
+}
+ul li:nth-child(odd) {
+  background: #cccccc;
 }
 
-ul li:nth-child(odd){
-  background-color: #cccccc;
-}
-p {
-  margin-top: 0px;
-  padding: 10px;
-}
-
- ul li span {
-   width: 50px;
-   height: 74px;
-   padding: 20px 10px;
-   float: left;
-   box-sizing: border-box;
+ ul li::before {
+   content: counter(pages);
+  background: #ff5353;
    font-size: 24px;
    color: #ffffff;
+   padding: 28px 18px;
+   position: absolute;
+   left: 0;
+   top: 0;
    text-align: center;
-   margin-right: 2px;
-   background-color: #ff5353;
-   counter-increment: pages;
- }
-span::before {
-  content: counter(pages);
-}
-  .color {
-   background-color: #cc4242;
- }
 
+}
+ul li:nth-child(odd)::before {
+  background-color: #cc4242;
+}
