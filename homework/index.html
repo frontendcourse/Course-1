@@ -1,50 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Завдання</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="http://uk.allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+  <title></title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="norm.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class= header>
-  <div class="clear"></div>
-  <div class="ht1"> (+123) 456 789 </div>
-  <div class="clear"></div>
-  <div class="ht2">
-    <a href="#" class="a">Log in</a> <span class="colortext"> or </span>
-    <a href="#" class="a">Register</a> </div>
-  <div class="logo"><img src="img/logo.png" alt="Логотип"></div>
-  <div class="searh">
-   <form action="search.php">
-     <input name='search' type='search' class="colortextsearch" value='Search Products...' />
-     <input type='submit' class="colortextsearch" value='Q'/>
-     </form>
+
+<header>
+  <div class="header-top">
+    <div class="container clear">
+      <address class="header-phone">
+        <a href="tel:+38123456789">(+123) 456 789</a>
+      </address>
+      <div class="user-links">
+        <a href="#">Log in</a> or <a href="#">Register</a>
+      </div>
+    </div>
   </div>
-  <div  class="menu">
-    <ul class="hr">
-      <li><a href="#" class="agm">Home</a> </li>
-      <li><a href="#" class="awm">Living room</a></li>
-      <li><a href="#" class="awm">Office</a></li>
-      <li><a href="#" class="awm">Bedroom</a></li>
-      <li><a href="#" class="awm">Blog</a></li>
-      <li><a href="#" class="awm">Contact</a></li>
-    </ul>
+
+  <div class="container clear">
+    <div class="header-logo">
+      <a href="#">
+        <img src="img/logo.png" width="166" height="49" alt="site logo"/>
+      </a>
+    </div>
+    <form action="#" class="header-search clear">
+      <input type="search" placeholder="Search Products…"/>
+      <button>Search</button>
+    </form>
+    <div class="clear"></div>
+    <div class="header-cart">
+      <span class="count">3</span>
+    </div>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Living room</a></li>
+        <li><a href="#">Office</a></li>
+        <li><a href="#">Bedroom</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#" class="active">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-  <div class="clear"></div>
-   </div>
-<div class="container">
-  <p>contact us</p>
-  </div>
-<div class="container1">
-  <p><a href="#" class="ahome">Home  /</a></p>
-  </div>
-<div class="container2">
-  <p><a href="#" class="acontact"> contact</a></p>
+</header>
+
+  <div class="container-contact">
+
+    <div class="contact">
+      <p>contact us</p>
+    </div>
+     <div class="contact-links">
+      <a href="#">Home /</a><a href="#"> contact</a>
+    </div>
+    </div>
+
+<div class="page-content">
 </div>
+
+<footer></footer>
 </body>
 </html>
