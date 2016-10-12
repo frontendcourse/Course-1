@@ -1,15 +1,26 @@
-.clear{
-  clear: both;
+
+body {
+  background: #f7f7f7;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  min-width: 980px;
 }
-.container{
+
+.container {
+  width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
 }
-.container:after{
+
+.clear:after{
   content: '';
   display: block;
   width: 100%;
   clear: both;
 }
+
+/*header*/
 .header_top{
   background: #2b2b2b;
   padding-top:9px;
@@ -30,5 +41,10 @@
   text-decoration: none;
 }
 .header_phone{
+  font-style: normal;
   float: left;
 }
+.user_links{
+  float: right;
+}
+
