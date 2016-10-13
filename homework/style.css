@@ -1,6 +1,7 @@
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
 html {
   height: 100%;
-  background: #282828;
+  background: #ffffff;
 }
 body {
   width: 870px;
@@ -8,3 +9,32 @@ body {
   margin: 0 auto;
   padding: 30px;
 }
+h1 {
+  margin-top: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #000000;
+}
+.links {
+  margin-top: -8px;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+span{
+  margin-right: 14px;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+.content {
+  margin-top: 56px;
+}
+p {
+  margin-bottom: 26px;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 15px;
+  color: #333333;
+  line-height: 26px;
+  }
