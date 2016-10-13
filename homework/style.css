@@ -32,7 +32,7 @@ header .login a {
 }
 
 header .second-line {
-  height: 90px;
+  height: 60px;
   margin-top: 30px;
 }
 
@@ -65,7 +65,11 @@ header .menu li {
   list-style-type: none;
 }
 .third-line {
-  height: 87px;
+  height: 57px;
+}
+.menu {
+  padding-left: 0;
+  float: left;
 }
 .third-line .menu li a {
   font-size: 16px;
@@ -74,12 +78,15 @@ header .menu li {
 }
 .third-line .menu .active {
    color: #be926f;
-  margin-left: 0px;
  }
-.img {
+.bag {
   background-image: url(bag.png);
   float:right ;
   z-index: 4;
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin-top: 21px;
 }
 
 #contact {
