@@ -3,8 +3,46 @@ html {
   background: #282828;
 }
 body {
-  width: 870px;
-  background: #ffffff;
+  width: 810px;
+  background: #fafafa;
   margin: 0 auto;
   padding: 30px;
+  /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.head h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  letter-spacing: -0.3px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+.head{
+  color: #666666;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+}
+.txt_grey {
+  color: #999999;
+  letter-spacing: -0.3px;
+}
+.content {
+  margin-top: 55px;
+
+}
+  .content p{
+    font: 15px 'Montserrat Light', sans-serif;
+      text-align: justify;
+    letter-spacing: -0.1px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+}
+ .head, .head span {
+  font: 15px 'Montserrat Light', sans-serif;
+
 }
