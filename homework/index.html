@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap site</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<!--HEADER-TOP-->
+<section class="header-top">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <a class="header-phone" href="tel:+38123456789">(+123) 456 789</a>
+        </div>
+        <div class="col-xs-6">
+          <div class="pull-right user-links">
+            <a href="#">Log in</a> or <a href="#">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/HEADER-TOP-->
+
+<!--CONTENT-->
+<section class="content">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <div class="header-logo text-center visible-xs-block">
+            <a href="#">
+              <img src="images/logo.png" width="166" height="49" alt="site logo"/>
+            </a>
+          </div>
+          <div class="header-logo hidden-xs">
+            <a href="#">
+              <img src="images/logo.png" width="166" height="49" alt="site logo"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 button">
+          <div class="input-group header-search">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+            <button class="btn btn-default btn-sm" type="button"></button>
+          </span>
+          </div>
+        </div>
+        <div class="col-xs-10">
+          <div class="header-nav">
+            <ul class="nav  nav-pills">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Living room</a></li>
+              <li><a href="#">Office</a></li>
+              <li><a href="#">Bedroom</a></li>
+              <li><a href="#">Blog</a></li>
+              <li class="active"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class=" pull-right header-cart">
+            <span class="count">3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/CONTENT-->
+
+<!--HEADING-->
+<div class="container">
+  <div class="row heading">
+    <div class="col-xs-8">
+      <div class="title">
+        contact us
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="pull-right subtitle">
+        <span>home  /</span> contact
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/HEADING-->
 </body>
 </html>
