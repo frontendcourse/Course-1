@@ -31,16 +31,24 @@ ul>li:nth-child(odd) {
 }
 
 ul>li>div {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.7rem;
   flex-basis: 50px;
   flex-shrink: 0;
-  background: #cc4242;
-  color: #ffffff;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   text-align: center;
+  background: linear-gradient(to bottom, #ff5353 0%, #cc4242 100%);
+  position: relative;
  }
 
-.even{
-  background: #ff5353;
+p {
+  width: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.7rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  margin: -0.85rem 0 0;
+  background-size: 50px 100%;
 }
+
