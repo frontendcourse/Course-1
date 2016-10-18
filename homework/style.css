@@ -1,0 +1,59 @@
+body {
+  background-color: #555555;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+li:nth-child(odd) {
+  background-color: #cccccc;
+}
+
+li:nth-child(even) {
+  background-color: #ffffff;
+
+}
+
+li {
+  font: 14px 'Arial', sans-serif;
+  width: 870px;
+  padding: 12px 50px;
+  margin: 0;
+  color: #282828;
+  list-style: none;
+  counter-increment: pages;
+  position: relative;
+}
+
+body {
+  counter-reset: pages;
+}
+
+li::before {
+  content: counter(pages);
+  background-color: #ff5353;
+  float: left;
+  width: 50px;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  font: 24px 'Times New Roman', sans-serif;
+  line-height: 74px;
+  margin-top: -12px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+}
+
+li::after {
+  content: ' ';
+  clear: both;
+}
+
+li:nth-child(odd)::before {
+  background-color: #cc4242;
+}
+
