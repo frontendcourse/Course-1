@@ -1,5 +1,5 @@
 #Знайомство з jQuery.
-###Для чого потрібна jQuery.
+###Для чого потрібна jQuery. [?](http://youmightnotneedjquery.com)
 ###Версії. [?](https://code.jquery.com/jquery/)
 ###Синтаксис.
 1. Функція `$`
