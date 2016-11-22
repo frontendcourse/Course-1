@@ -1,0 +1,41 @@
+body {
+  font-family: Arial sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+  letter-spacing: 0.7px;
+  counter-reset: pages;
+  width: 1000px;
+}
+
+ul{
+  list-style: none;
+  background: #555555;
+  padding: 0  40px;
+
+}
+ul li {
+  background: #ffffff;
+  padding: 10px 10px 10px 50px;
+  counter-increment: pages;
+  position: relative;
+
+}
+ul li:nth-child(odd) {
+  background: #cccccc;
+}
+
+ ul li::before {
+   content: counter(pages);
+  background: #ff5353;
+   font-size: 24px;
+   color: #ffffff;
+   padding: 28px 18px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   text-align: center;
+
+}
+ul li:nth-child(odd)::before {
+  background-color: #cc4242;
+}
