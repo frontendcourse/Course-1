@@ -1,0 +1,60 @@
+
+body {
+  background: #555555;
+}
+ol {
+  list-style: none;
+  padding-left: 0px;
+}
+ol li {
+  background: #ffffff;
+  display: flex;
+
+}
+@media (max-width: 500px) {
+
+  ol li{
+    flex-direction: column;
+  }
+
+}
+
+ol li:nth-child(odd) {
+  background: #cccccc;
+}
+
+ol li .first {
+  background: #ff5353;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 50px;
+}
+
+
+@media (max-width: 500px) {
+
+  ol li .first {
+    width: inherit;
+  }
+}
+
+ol li:nth-child(odd) .first {
+  background: #cc4242;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.65em;
+  padding: 3px 1px;
+}
+
+span {
+  font-family: "Times New Roman";
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
